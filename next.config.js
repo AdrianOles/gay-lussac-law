@@ -3,7 +3,7 @@ const nextConfig = {
     images: {
         domains: [
             "swhschemistry.weebly.com",
-            "img.freepik.com"
+            "png.pngtree.com"
         ]
     }
 }

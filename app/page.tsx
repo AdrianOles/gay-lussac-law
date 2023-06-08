@@ -21,7 +21,7 @@ export default function Home() {
 
   return (
     <div className='flex-col relative h-screen w-screen'>
-      <video autoPlay muted loop playsInline src='videos/gas.mp4' poster='https://img.freepik.com/premium-vector/update-concept-application-loading-process-symbol-web-screen-vector-illustration-flat_186332-1253.jpg'
+      <video autoPlay muted loop playsInline src='videos/gas.mp4' poster='https://png.pngtree.com/background/20210716/original/pngtree-smoke-gas-purple-photography-picture-image_1359141.jpg'
         className="w-screen h-screen object-cover absolute z-1 brightness-[60%]">
         <source src='videos/gas.mp4' type="video/mp4" />
       </video>
