@@ -21,9 +21,11 @@ export default function Home() {
 
   return (
     <div className='flex-col relative h-screen w-screen'>
-      <div className='absolute bottom-0 right-0 m-4 px-2 py-3 text-white z-50 bg-green-600 rounded-lg bg-opacity-50 cursor-pointer hover:bg-opacity-80'>
-        <a href='https://docs.google.com/document/d/1gA_T3dgV0NAa5iD2mBtbYlj8TyUKxayuPp0sCCYg5Z8/edit?usp=sharing'>Extra Practice</a>
-      </div>
+        <a href='https://docs.google.com/document/d/1gA_T3dgV0NAa5iD2mBtbYlj8TyUKxayuPp0sCCYg5Z8/edit?usp=sharing'>
+        <div className='absolute bottom-0 right-0 m-4 px-2 py-3 text-white z-50 bg-green-600 rounded-lg bg-opacity-50 cursor-pointer hover:bg-opacity-80'>
+          Extra Practice
+         </div>
+        </a>
       <video autoPlay muted loop playsInline src='videos/gas.mp4' poster='https://png.pngtree.com/background/20210716/original/pngtree-smoke-gas-purple-photography-picture-image_1359141.jpg'
         className="w-screen h-screen object-cover absolute z-1 brightness-[60%]">
         <source src='videos/gas.mp4' type="video/mp4" />
